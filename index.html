@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<style>
+body{
+    font-family: 'Lato', sans-serif;
+    
+    }
+    form{
+        width: 300px;
+        height: 150px;
+    }
+.login{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+.email{
+   margin-top: 20px;
+   padding: 5px 50px ;
+   font-family: 'Lato', sans-serif;
+}
+.btn{ 
+   color: white;
+    font-family: 'Lato', sans-serif;
+    background-color: blue;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 30px;
+    margin-top: 20px;
+    }
+    .link{
+    max-width: 150px;
+    display: flex;
+    justify-content: space-between;
+    }
+    .main{
+        width:500px;
+        margin-top: 15%;
+      
+    }
+    @media(max-width:700px){
+        .main{
+            display: none;
+        }
+    }
+    
+</style>
+<body>
+   <div >
+    <div class="login">
+        <h3>Sign Up</h3>
+        <p>Access to the most powerfull tool in <br>the entire design and web industry.</p>
+        <div class="link">
+               <a href="#">Login</a> 
+               <a href="#">Register</a>
+        </div>
+        <form action="">
+           <div class="form">
+           <div>
+               <input type="email" class="email" placeholder="Email">
+           </div>
+           <div>
+               <input type="password" class="email"placeholder="mot de passe">
+           </div>
+           </div>
+           <div >
+               <button class="btn">Sign up</button>
+           </div>           
+    </div>
+    <div class="main">
+        <img src="huddle-room-video-conference.png" > 
+    </div>
+   </div>
+    
+</body>
+</html>
